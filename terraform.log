@@ -1,0 +1,187 @@
+2026-03-07T08:47:29.100+0800 [INFO]  Terraform version: 1.13.3
+2026-03-07T08:47:29.101+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2026-03-07T08:47:29.102+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-03-07T08:47:29.102+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2026-03-07T08:47:29.102+0800 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2026-03-07T08:47:29.103+0800 [INFO]  Go runtime version: go1.24.5
+2026-03-07T08:47:29.103+0800 [INFO]  CLI args: []string{"terraform", "init"}
+2026-03-07T08:47:29.103+0800 [DEBUG] Attempting to open CLI config file: /home/zww/.terraform.d/.terraformrc
+2026-03-07T08:47:29.104+0800 [INFO]  Loading CLI configuration from /home/zww/.terraform.d/.terraformrc
+2026-03-07T08:47:29.105+0800 [DEBUG] Not reading CLI config directory because config location is overridden by environment variable
+2026-03-07T08:47:29.106+0800 [DEBUG] Explicit provider installation configuration is set
+2026-03-07T08:47:29.109+0800 [INFO]  CLI command args: []string{"init"}
+2026-03-07T08:47:29.110+0800 [INFO]  Checkpoint disabled. Not running.
+2026-03-07T08:47:29.170+0800 [DEBUG] checking for provisioner in "."
+2026-03-07T08:47:29.175+0800 [DEBUG] checking for provisioner in "/usr/bin"
+2026-03-07T08:47:29.201+0800 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2026-03-07T08:47:29.833+0800 [DEBUG] GET https://registry.terraform.io/v1/providers/tencentcloudstack/tencentcloud/versions
+2026-03-07T08:47:30.373+0800 [DEBUG] GET https://registry.terraform.io/v1/providers/tencentcloudstack/tencentcloud/1.82.73/download/linux/amd64
+2026-03-07T08:47:31.070+0800 [DEBUG] GET https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS
+2026-03-07T08:47:32.819+0800 [DEBUG] GET https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS.sig
+2026-03-07T08:47:42.822+0800 [ERROR] GET https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS.sig request failed: Get "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS.sig": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2026-03-07T08:47:42.824+0800 [DEBUG] GET https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS.sig: retrying in 1s (1 left)
+2026-03-07T08:47:43.828+0800 [INFO]  Previous request to the remote registry failed, attempting retry.
+2026-03-07T08:47:53.838+0800 [ERROR] GET https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS.sig request failed: Get "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS.sig": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2026-03-07T08:48:54.274+0800 [INFO]  Terraform version: 1.13.3
+2026-03-07T08:48:54.275+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2026-03-07T08:48:54.275+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-03-07T08:48:54.275+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2026-03-07T08:48:54.276+0800 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2026-03-07T08:48:54.276+0800 [INFO]  Go runtime version: go1.24.5
+2026-03-07T08:48:54.276+0800 [INFO]  CLI args: []string{"terraform", "init"}
+2026-03-07T08:48:54.276+0800 [DEBUG] Attempting to open CLI config file: /home/zww/.terraform.d/.terraformrc
+2026-03-07T08:48:54.277+0800 [INFO]  Loading CLI configuration from /home/zww/.terraform.d/.terraformrc
+2026-03-07T08:48:54.277+0800 [DEBUG] Not reading CLI config directory because config location is overridden by environment variable
+2026-03-07T08:48:54.278+0800 [DEBUG] Explicit provider installation configuration is set
+2026-03-07T08:48:54.278+0800 [INFO]  CLI command args: []string{"init"}
+2026-03-07T08:48:54.279+0800 [INFO]  Checkpoint disabled. Not running.
+2026-03-07T08:48:54.317+0800 [DEBUG] checking for provisioner in "."
+2026-03-07T08:48:54.319+0800 [DEBUG] checking for provisioner in "/usr/bin"
+2026-03-07T08:48:54.340+0800 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2026-03-07T08:48:54.703+0800 [DEBUG] GET https://registry.terraform.io/v1/providers/tencentcloudstack/tencentcloud/versions
+2026-03-07T08:48:55.119+0800 [DEBUG] GET https://registry.terraform.io/v1/providers/tencentcloudstack/tencentcloud/1.82.73/download/linux/amd64
+2026-03-07T08:48:55.613+0800 [DEBUG] GET https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS
+2026-03-07T08:48:56.335+0800 [DEBUG] GET https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS.sig
+2026-03-07T08:49:06.338+0800 [ERROR] GET https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS.sig request failed: Get "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS.sig": context deadline exceeded
+2026-03-07T08:49:06.340+0800 [DEBUG] GET https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS.sig: retrying in 1s (1 left)
+2026-03-07T08:49:07.344+0800 [INFO]  Previous request to the remote registry failed, attempting retry.
+2026-03-07T08:49:17.345+0800 [ERROR] GET https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS.sig request failed: Get "https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS.sig": net/http: request canceled (Client.Timeout exceeded while awaiting headers)
+2026-03-07T08:56:30.866+0800 [INFO]  Terraform version: 1.13.3
+2026-03-07T08:56:30.867+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2026-03-07T08:56:30.867+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-03-07T08:56:30.867+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2026-03-07T08:56:30.868+0800 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2026-03-07T08:56:30.868+0800 [INFO]  Go runtime version: go1.24.5
+2026-03-07T08:56:30.868+0800 [INFO]  CLI args: []string{"terraform", "init"}
+2026-03-07T08:56:30.868+0800 [DEBUG] Attempting to open CLI config file: /home/zww/.terraform.d/.terraformrc
+2026-03-07T08:56:30.869+0800 [INFO]  Loading CLI configuration from /home/zww/.terraform.d/.terraformrc
+2026-03-07T08:56:30.869+0800 [DEBUG] Not reading CLI config directory because config location is overridden by environment variable
+2026-03-07T08:56:30.869+0800 [DEBUG] Explicit provider installation configuration is set
+2026-03-07T08:56:30.871+0800 [INFO]  CLI command args: []string{"init"}
+2026-03-07T08:56:30.871+0800 [INFO]  Checkpoint disabled. Not running.
+2026-03-07T08:56:30.911+0800 [DEBUG] checking for provisioner in "."
+2026-03-07T08:56:30.913+0800 [DEBUG] checking for provisioner in "/usr/bin"
+2026-03-07T08:56:30.930+0800 [DEBUG] Service discovery for registry.terraform.io at https://registry.terraform.io/.well-known/terraform.json
+2026-03-07T08:56:31.872+0800 [DEBUG] GET https://registry.terraform.io/v1/providers/tencentcloudstack/tencentcloud/versions
+2026-03-07T08:56:35.948+0800 [DEBUG] GET https://registry.terraform.io/v1/providers/tencentcloudstack/tencentcloud/1.82.73/download/linux/amd64
+2026-03-07T08:56:37.785+0800 [DEBUG] GET https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS
+2026-03-07T08:56:39.981+0800 [DEBUG] GET https://github.com/tencentcloudstack/terraform-provider-tencentcloud/releases/download/v1.82.73/terraform-provider-tencentcloud_1.82.73_SHA256SUMS.sig
+2026-03-07T08:56:46.567+0800 [DEBUG] Provider signed by 84F69E1C1BECF459 tencentcloud <iac@tencent.com>
+2026-03-07T08:56:55.881+0800 [INFO]  Terraform version: 1.13.3
+2026-03-07T08:56:55.881+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2026-03-07T08:56:55.882+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-03-07T08:56:55.882+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2026-03-07T08:56:55.882+0800 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2026-03-07T08:56:55.882+0800 [INFO]  Go runtime version: go1.24.5
+2026-03-07T08:56:55.882+0800 [INFO]  CLI args: []string{"terraform", "plan"}
+2026-03-07T08:56:55.883+0800 [DEBUG] Attempting to open CLI config file: /home/zww/.terraform.d/.terraformrc
+2026-03-07T08:56:55.883+0800 [INFO]  Loading CLI configuration from /home/zww/.terraform.d/.terraformrc
+2026-03-07T08:56:55.883+0800 [DEBUG] Not reading CLI config directory because config location is overridden by environment variable
+2026-03-07T08:56:55.883+0800 [DEBUG] Explicit provider installation configuration is set
+2026-03-07T08:56:55.884+0800 [INFO]  CLI command args: []string{"plan"}
+2026-03-07T08:56:55.884+0800 [INFO]  Checkpoint disabled. Not running.
+2026-03-07T08:56:56.180+0800 [DEBUG] checking for provisioner in "."
+2026-03-07T08:56:56.182+0800 [DEBUG] checking for provisioner in "/usr/bin"
+2026-03-07T08:56:56.210+0800 [INFO]  backend/local: starting Plan operation
+2026-03-07T08:56:56.272+0800 [DEBUG] backend/local: will prompt for input of unset required variables [name]
+2026-03-07T08:56:56.272+0800 [DEBUG] command: asking for input: "var.name"
+2026-03-07T08:57:02.659+0800 [WARN]  backend/local: Failed to request user input for variable "name": interrupted
+2026-03-07T08:57:18.496+0800 [INFO]  Terraform version: 1.13.3
+2026-03-07T08:57:18.497+0800 [DEBUG] using github.com/hashicorp/go-tfe v1.74.1
+2026-03-07T08:57:18.497+0800 [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-03-07T08:57:18.497+0800 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.1
+2026-03-07T08:57:18.497+0800 [DEBUG] using github.com/zclconf/go-cty v1.16.3
+2026-03-07T08:57:18.497+0800 [INFO]  Go runtime version: go1.24.5
+2026-03-07T08:57:18.498+0800 [INFO]  CLI args: []string{"terraform", "plan", "-var-file=tfc_vpc.tfvars"}
+2026-03-07T08:57:18.498+0800 [DEBUG] Attempting to open CLI config file: /home/zww/.terraform.d/.terraformrc
+2026-03-07T08:57:18.498+0800 [INFO]  Loading CLI configuration from /home/zww/.terraform.d/.terraformrc
+2026-03-07T08:57:18.498+0800 [DEBUG] Not reading CLI config directory because config location is overridden by environment variable
+2026-03-07T08:57:18.499+0800 [DEBUG] Explicit provider installation configuration is set
+2026-03-07T08:57:18.500+0800 [INFO]  CLI command args: []string{"plan", "-var-file=tfc_vpc.tfvars"}
+2026-03-07T08:57:18.500+0800 [INFO]  Checkpoint disabled. Not running.
+2026-03-07T08:57:18.789+0800 [DEBUG] checking for provisioner in "."
+2026-03-07T08:57:18.791+0800 [DEBUG] checking for provisioner in "/usr/bin"
+2026-03-07T08:57:18.807+0800 [INFO]  backend/local: starting Plan operation
+2026-03-07T08:57:18.888+0800 [DEBUG] created provider logger: level=debug
+2026-03-07T08:57:18.889+0800 [INFO]  provider: configuring client automatic mTLS
+2026-03-07T08:57:18.898+0800 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73 args=[".terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73"]
+2026-03-07T08:57:18.906+0800 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73 pid=938
+2026-03-07T08:57:18.907+0800 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73
+2026-03-07T08:57:18.919+0800 [INFO]  provider.terraform-provider-tencentcloud_v1.82.73: configuring server automatic mTLS: timestamp="2026-03-07T08:57:18.919+0800"
+2026-03-07T08:57:18.951+0800 [DEBUG] provider: using plugin: version=5
+2026-03-07T08:57:18.951+0800 [DEBUG] provider.terraform-provider-tencentcloud_v1.82.73: plugin address: network=unix address=/tmp/plugin5839590 timestamp="2026-03-07T08:57:18.951+0800"
+2026-03-07T08:57:19.184+0800 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-03-07T08:57:19.187+0800 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73 id=938
+2026-03-07T08:57:19.188+0800 [DEBUG] provider: plugin exited
+2026-03-07T08:57:19.189+0800 [DEBUG] Building and walking validate graph
+2026-03-07T08:57:19.192+0800 [DEBUG] ProviderTransformer: "tencentcloud_vpc.this" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/tencentcloudstack/tencentcloud"]
+2026-03-07T08:57:19.192+0800 [DEBUG] ReferenceTransformer: "tencentcloud_vpc.this" references: [var.name var.dns_servers var.is_multicast var.tags var.cidr_block]
+2026-03-07T08:57:19.193+0800 [DEBUG] ReferenceTransformer: "var.tags" references: []
+2026-03-07T08:57:19.193+0800 [DEBUG] ReferenceTransformer: "var.cidr_block" references: []
+2026-03-07T08:57:19.193+0800 [DEBUG] ReferenceTransformer: "var.region" references: []
+2026-03-07T08:57:19.193+0800 [DEBUG] ReferenceTransformer: "var.dns_servers" references: []
+2026-03-07T08:57:19.193+0800 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/tencentcloudstack/tencentcloud\"]" references: [var.region]
+2026-03-07T08:57:19.194+0800 [DEBUG] ReferenceTransformer: "var.name" references: []
+2026-03-07T08:57:19.194+0800 [DEBUG] ReferenceTransformer: "var.is_multicast" references: []
+2026-03-07T08:57:19.195+0800 [DEBUG] ReferenceTransformer: "output.vpc_id (expand)" references: [tencentcloud_vpc.this]
+2026-03-07T08:57:19.195+0800 [DEBUG] ReferenceTransformer: "output.vpc_cidr_block (expand)" references: [tencentcloud_vpc.this]
+2026-03-07T08:57:19.195+0800 [DEBUG] ReferenceTransformer: "output.vpc_name (expand)" references: [tencentcloud_vpc.this]
+2026-03-07T08:57:19.195+0800 [DEBUG] Starting graph walk: walkValidate
+2026-03-07T08:57:19.217+0800 [DEBUG] created provider logger: level=debug
+2026-03-07T08:57:19.217+0800 [INFO]  provider: configuring client automatic mTLS
+2026-03-07T08:57:19.221+0800 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73 args=[".terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73"]
+2026-03-07T08:57:19.226+0800 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73 pid=965
+2026-03-07T08:57:19.226+0800 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73
+2026-03-07T08:57:19.238+0800 [INFO]  provider.terraform-provider-tencentcloud_v1.82.73: configuring server automatic mTLS: timestamp="2026-03-07T08:57:19.238+0800"
+2026-03-07T08:57:19.267+0800 [DEBUG] provider: using plugin: version=5
+2026-03-07T08:57:19.267+0800 [DEBUG] provider.terraform-provider-tencentcloud_v1.82.73: plugin address: address=/tmp/plugin2377310398 network=unix timestamp="2026-03-07T08:57:19.267+0800"
+2026-03-07T08:57:19.581+0800 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-03-07T08:57:19.585+0800 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73 id=965
+2026-03-07T08:57:19.585+0800 [DEBUG] provider: plugin exited
+2026-03-07T08:57:19.586+0800 [INFO]  backend/local: plan calling Plan
+2026-03-07T08:57:19.586+0800 [DEBUG] Building and walking plan graph for NormalMode
+2026-03-07T08:57:19.587+0800 [DEBUG] ProviderTransformer: "tencentcloud_vpc.this (expand)" (*terraform.nodeExpandPlannableResource) needs provider["registry.terraform.io/tencentcloudstack/tencentcloud"]
+2026-03-07T08:57:19.587+0800 [DEBUG] ReferenceTransformer: "var.is_multicast" references: []
+2026-03-07T08:57:19.587+0800 [DEBUG] ReferenceTransformer: "output.vpc_cidr_block (expand)" references: [tencentcloud_vpc.this (expand)]
+2026-03-07T08:57:19.587+0800 [DEBUG] ReferenceTransformer: "output.vpc_name (expand)" references: [tencentcloud_vpc.this (expand)]
+2026-03-07T08:57:19.588+0800 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/tencentcloudstack/tencentcloud\"]" references: [var.region]
+2026-03-07T08:57:19.588+0800 [DEBUG] ReferenceTransformer: "tencentcloud_vpc.this (expand)" references: [var.name var.tags var.dns_servers var.cidr_block var.is_multicast]
+2026-03-07T08:57:19.588+0800 [DEBUG] ReferenceTransformer: "var.region" references: []
+2026-03-07T08:57:19.588+0800 [DEBUG] ReferenceTransformer: "var.tags" references: []
+2026-03-07T08:57:19.588+0800 [DEBUG] ReferenceTransformer: "var.name" references: []
+2026-03-07T08:57:19.588+0800 [DEBUG] ReferenceTransformer: "var.cidr_block" references: []
+2026-03-07T08:57:19.589+0800 [DEBUG] ReferenceTransformer: "output.vpc_id (expand)" references: [tencentcloud_vpc.this (expand)]
+2026-03-07T08:57:19.589+0800 [DEBUG] ReferenceTransformer: "var.dns_servers" references: []
+2026-03-07T08:57:19.589+0800 [DEBUG] Starting graph walk: walkPlan
+2026-03-07T08:57:19.606+0800 [DEBUG] created provider logger: level=debug
+2026-03-07T08:57:19.606+0800 [INFO]  provider: configuring client automatic mTLS
+2026-03-07T08:57:19.609+0800 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73 args=[".terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73"]
+2026-03-07T08:57:19.613+0800 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73 pid=986
+2026-03-07T08:57:19.613+0800 [DEBUG] provider: waiting for RPC address: plugin=.terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73
+2026-03-07T08:57:19.627+0800 [INFO]  provider.terraform-provider-tencentcloud_v1.82.73: configuring server automatic mTLS: timestamp="2026-03-07T08:57:19.626+0800"
+2026-03-07T08:57:19.652+0800 [DEBUG] provider.terraform-provider-tencentcloud_v1.82.73: plugin address: network=unix address=/tmp/plugin3318619675 timestamp="2026-03-07T08:57:19.652+0800"
+2026-03-07T08:57:19.652+0800 [DEBUG] provider: using plugin: version=5
+2026-03-07T08:57:19.919+0800 [WARN]  ValidateProviderConfig from "provider[\"registry.terraform.io/tencentcloudstack/tencentcloud\"]" changed the config value, but that value is unused
+2026-03-07T08:57:19.921+0800 [DEBUG] Resource instance state not found for node "tencentcloud_vpc.this", instance tencentcloud_vpc.this
+2026-03-07T08:57:19.921+0800 [DEBUG] ReferenceTransformer: "tencentcloud_vpc.this" references: []
+2026-03-07T08:57:19.922+0800 [DEBUG] refresh: tencentcloud_vpc.this: no state, so not refreshing
+2026-03-07T08:57:19.925+0800 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2026-03-07T08:57:19.928+0800 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/tencentcloudstack/tencentcloud/1.82.73/linux_amd64/terraform-provider-tencentcloud_v1.82.73 id=986
+2026-03-07T08:57:19.928+0800 [DEBUG] provider: plugin exited
+2026-03-07T08:57:19.928+0800 [DEBUG] building apply graph to check for errors
+2026-03-07T08:57:19.929+0800 [DEBUG] Resource state not found for node "tencentcloud_vpc.this", instance tencentcloud_vpc.this
+2026-03-07T08:57:19.929+0800 [DEBUG] ProviderTransformer: "tencentcloud_vpc.this (expand)" (*terraform.nodeExpandApplyableResource) needs provider["registry.terraform.io/tencentcloudstack/tencentcloud"]
+2026-03-07T08:57:19.929+0800 [DEBUG] ProviderTransformer: "tencentcloud_vpc.this" (*terraform.NodeApplyableResourceInstance) needs provider["registry.terraform.io/tencentcloudstack/tencentcloud"]
+2026-03-07T08:57:19.929+0800 [DEBUG] ReferenceTransformer: "tencentcloud_vpc.this (expand)" references: [var.name var.tags var.cidr_block var.dns_servers var.is_multicast]
+2026-03-07T08:57:19.930+0800 [DEBUG] ReferenceTransformer: "var.tags" references: []
+2026-03-07T08:57:19.930+0800 [DEBUG] ReferenceTransformer: "var.dns_servers" references: []
+2026-03-07T08:57:19.930+0800 [DEBUG] ReferenceTransformer: "output.vpc_cidr_block (expand)" references: [tencentcloud_vpc.this (expand) tencentcloud_vpc.this tencentcloud_vpc.this]
+2026-03-07T08:57:19.930+0800 [DEBUG] ReferenceTransformer: "tencentcloud_vpc.this" references: [var.cidr_block var.dns_servers var.is_multicast var.name var.tags]
+2026-03-07T08:57:19.930+0800 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/tencentcloudstack/tencentcloud\"]" references: [var.region]
+2026-03-07T08:57:19.930+0800 [DEBUG] ReferenceTransformer: "var.is_multicast" references: []
+2026-03-07T08:57:19.931+0800 [DEBUG] ReferenceTransformer: "var.name" references: []
+2026-03-07T08:57:19.931+0800 [DEBUG] ReferenceTransformer: "var.cidr_block" references: []
+2026-03-07T08:57:19.931+0800 [DEBUG] ReferenceTransformer: "var.region" references: []
+2026-03-07T08:57:19.931+0800 [DEBUG] ReferenceTransformer: "output.vpc_name (expand)" references: [tencentcloud_vpc.this (expand) tencentcloud_vpc.this tencentcloud_vpc.this]
+2026-03-07T08:57:19.931+0800 [DEBUG] ReferenceTransformer: "output.vpc_id (expand)" references: [tencentcloud_vpc.this (expand) tencentcloud_vpc.this tencentcloud_vpc.this]
+2026-03-07T08:57:19.932+0800 [INFO]  backend/local: plan operation completed
