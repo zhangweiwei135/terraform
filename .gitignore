@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+
+# 含敏感信息的变量文件（保留 .example 供参考）
+*.tfvars
+!terraform.tfvars.example
+
+# 本地/环境相关
+.env
+.env.*
+*.pem
